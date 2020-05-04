@@ -1,0 +1,14 @@
+# Hello
+
+I don't know R. Not well atleast. I thought I'd start off doing those Tidy Tuesday exercises in a bid to learn and this is a repo to list all those exercises and lessons I've learnt along the way. 
+
+## 05-05-2020
+
+### The difference between csv and csv2:
+
+![alt text](https://github.com/abhiramr/tidy-tuesday/blob/master/assets/read.csv_.png)
+---
+![alt text](https://github.com/abhiramr/tidy-tuesday/blob/master/assets/read.csv_2.png)
+
+The only difference is in the "sep" and "dec" arguments in both functions. In some countries, "." is a decimal point, while in others, "," is used.
+Similarly, in the countries where "," is a decimal point, the "comma" separater is the semicolon(;). Hence read_csv and read_csv2 are used as applicable.
